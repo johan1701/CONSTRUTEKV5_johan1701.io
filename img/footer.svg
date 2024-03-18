@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="FONDO" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1919 705.72">
+  <path d="M1018,533.73v117.98h-118v-106.13c0-6.54,5.31-11.85,11.86-11.85h106.14Z" style="fill: #020202;"/>
+  <path d="M911.86,533.73c-6.55,0-11.86,5.31-11.86,11.85v106.13h118v-117.98h-106.14Zm19.78,42.88l15.99-13.08v17.38c0,2.07-.92,4.01-2.52,5.32l-13.47,11.04v-20.66Zm0,45.5v-20.66l15.99-13.09v.03l35.28-28.83v16.66c0,2.53-1.12,4.89-3.08,6.48l-36.01,29.42-12.18,9.99Zm39.32,2.39l-16.72-16.15,9.58-7.85,24.87,24h-17.73Z" style="fill: #fff;"/>
+  <g>
+    <rect x="-170" y="478.72" width="2258" height="334" style="fill: #020202;"/>
+    <g>
+      <path d="M1472.67,301.68l136.15,111.31c16.19,13.23,25.49,32.81,25.52,53.73l.02,12.67h-161.6s-.09-177.71-.09-177.71Z" style="fill: #020202;"/>
+      <path d="M1667.47,0l130.51,106.7c19.77,16.16,31.11,40.09,31.1,65.63l-.11,307.06h-161.75s0-18.66,0-18.66l.16,.12L1667.47,0Z" style="fill: #020202;"/>
+      <polygon points="1919 405.3 1919 479.39 1865.93 479.39 1865.89 411.58 1919 405.3" style="fill: #020202;"/>
+    </g>
+    <path d="M911.86,533.73c-6.55,0-11.86,5.31-11.86,11.85v106.14h118v-117.99h-106.14Zm19.78,42.88l15.98-13.08v17.38c0,2.07-.92,4.01-2.52,5.32l-13.47,11.05v-20.66Zm0,45.5v-20.66l15.98-13.08v.02l35.28-28.83v16.66c0,2.53-1.12,4.9-3.09,6.49l-36,29.42-12.18,9.99Zm39.32,2.39l-16.73-16.15,9.58-7.85,24.87,24h-17.73Z" style="fill: #fff;"/>
+    <text transform="translate(823.73 193.06)" style="fill: #020202; font-family: CenturyGothic, &apos;Century Gothic&apos;; font-size: 22px;"><tspan x="0" y="0">www.constructek.com.co</tspan><tspan x="-29.39" y="26.4">contacto@constructek.com.co</tspan><tspan x="-43.89" y="52.8">ingenieriaconstructek@gmail.com</tspan><tspan x="53.17" y="79.2">+57 (1) 782 2636</tspan><tspan x="26.06" y="105.6" xml:space="preserve">Kra 9 # 53-58  Of. 201</tspan><tspan x="39.51" y="132">Bogotá, Colombia</tspan></text>
+    <text transform="translate(672.91 101.69)" style="fill: #f19104; font-family: LOGOTYPE-ExtraBold, LOGOTYPE; font-size: 50px;"><tspan x="0" y="0" style="letter-spacing: -.02em;">C</tspan><tspan x="51.45" y="0" style="letter-spacing: 0em;">ON</tspan><tspan x="161.36" y="0" style="letter-spacing: -.19em;">T</tspan><tspan x="201.99" y="0" style="letter-spacing: -.07em;">A</tspan><tspan x="258.84" y="0" style="letter-spacing: .03em;">C</tspan><tspan x="312.73" y="0" style="letter-spacing: -.19em;">T</tspan><tspan x="353.36" y="0" style="letter-spacing: 0em;">AN</tspan><tspan x="466.52" y="0" style="letter-spacing: -.02em;">O</tspan><tspan x="522.56" y="0" style="letter-spacing: .05em;">S</tspan></text>
+  </g>
+</svg>

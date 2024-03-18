@@ -1,0 +1,812 @@
+/* @media (max-width: 1200px) {
+    .presenta {
+        width: calc(100% - 40px);
+    }
+    .slider {
+        width: calc(100% - 40px);
+    }
+}
+@media (max-width: 768px) {
+    .presenta {
+        width: calc(75% - 30px);
+    }
+    .slider {
+        width: calc(75% - 30px);
+    }
+}
+@media (max-width: 480px) {
+    .presenta {
+        width: calc(100% - 30px);
+    }
+    .slider {
+        width: calc(50% - 30px);
+    }
+} */
+
+@font-face {
+
+    font-family: LOGOTYPE;
+
+    src: url(/fuentes/LOGOTYPE-ExtraBold.otf);
+}
+
+@font-face {
+
+    font-family: Yapari Triallight;
+
+    src: url(/fuentes/YapariTrial-Light.ttf);
+}
+
+@font-face {
+
+    font-family: centgot;
+
+    src: url(/fuentes/CenturyGothic.ttf);
+}
+
+* {
+    font-weight: 400;
+
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body {
+    min-height: 100vh;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* HEADER CONSTRUTEK LOGO */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+
+.logo .logotipofijo {
+    width: 7%;
+    align-items: center;
+}
+
+/* INICIO */
+.inicio {
+    background-image: url(../img/fonfo1.jpg);
+    background-color: #000000;
+    min-height: 100vh;
+    width: auto;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.inicio .img {
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    bottom: 190px;
+}
+
+/* MENU DE NAVEGACIÓN */
+.navbar {
+    min-height: 5vh;
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+    padding-right: 40px;
+    /* background: #c3580b; */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f19104;
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 11px;
+    font-family: 'Yapari Triallight';
+    letter-spacing: 1px;
+    line-height: 5px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    transition: .5s all ease;
+}
+
+.navbar a:hover {
+    transform: translateX(-2px);
+    color: #f1d4a9;
+ 
+
+}
+
+.membt {
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+}
+
+.membt h1 {
+    color: #F19104;
+    font-family: 'Yapari Triallight';
+    font-kerning: normal;
+    font-size: 15px;
+}
+
+.membt .dot {
+    opacity: 0;
+}
+
+/* SECCION INTRODUCCION */
+.nosotros {
+    background: #000;
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.nosotros p {
+    font-family: 'centgot';
+    justify-content: center;
+    text-align: center;
+}
+
+/* VISION */
+.vision {
+    background: #000000;
+    color: #fff;
+    width: 100%;
+    min-height: 110vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.pest {
+    background: transparent;
+    width: 5%;
+}
+
+.empre1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 70vh;
+}
+
+.vision .pest img {
+    display: flex;
+    position: relative;
+    left: -70px;
+    width: 80px;
+    height: 50vh;
+}
+
+.vision .empre {
+    width: 400px;
+    height: 250px;
+    padding: 0 10px 100px 0px;
+    background: transparent;
+}
+
+.empre h1 {
+    font-size: 30px;
+    font-family: 'LOGOTYPE';
+    color: #F19104;
+}
+
+.empre p {
+    font-size: 12px;
+    font-family: 'centgot';
+    color: #ffffff;
+}
+
+.valor {
+    width: 500px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: baseline;
+    background: transparent;
+}
+
+.valor h1 {
+    font-size: 30px;
+    font-family: 'LOGOTYPE';
+    padding-bottom: 30px;
+    color: #F19104;
+    line-height : 30px;
+}
+
+.valor p {
+    font-size: 12px;
+    font-family: 'centgot';
+    color: #ffffff;
+    padding: 1px 0px 25px 0px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.valor img {
+    width: 40px;
+    height: 40px;
+    transition: .5s ease;
+}
+
+.valor img:hover {
+    transform: scale(1.2);
+}
+
+/* SERVICIOS */
+
+.logosclientes{
+    background-image:url(/img/fondo1.png);
+    background-color: #000;
+}
+.servicios {
+    color: #fff;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.servicios h1 {
+    font-size: 30px;
+    font-family: 'LOGOTYPE';
+    line-height: 15 px;
+    color: #F19104;
+    padding-bottom: 190px;
+    margin-right: 300px;
+}
+
+.servicios .cliente span {
+    width: 150px;
+    height: 150px;
+    background: #F19104;
+}
+.ser2{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.ser2 h2{
+    color: #F19104;
+    font-family: 'LOGOTYPE';
+    font-size: 15px;
+}
+/* PROYECTOS */
+.proyectos {
+    background: #F19104;
+    background-image: url(/img/fondo\ linea.svg);
+    color: #000000;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    min-height: 80vh;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+
+
+}
+
+.proyectos h1{
+    font-family: 'LOGOTYPE';
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 130px;
+}
+.bases1{
+    display: flex;
+    align-items: end;
+
+}
+.bases1 img{
+   display: flex;
+   justify-content:end;
+}
+
+
+
+
+
+
+/* TRABAJO DE CAMPO */
+.proyec2 {
+    background: #ffffff;
+    color: #fff;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.proyec2 h1 {
+    padding: 5px;
+    font-size: 15px;
+    color: #F19104;;
+    font-family: 'LOGOTYPE';
+    font-size:25px ;
+}
+
+
+
+/* FOOTER 01 */
+.portal {
+    background: #ffffff;
+    color: #000;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.portal h1 {
+    font-size: 40px;
+    color: #F19104;
+    font-family: 'LOGOTYPE';
+}
+
+.portal h2 {
+    font-size: 23,9px;
+    font-family: 'LOGOTYPE';
+}
+
+.portal h3 {
+    padding: 10px 0%  120px 0px;
+    font-size: 15px;
+    font-family: 'Yapari Triallight';
+    color: #F19104;
+}
+
+.portal a {
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #000000;
+    border:#000000 2px solid;
+}
+.portal a:hover{
+    background-color: #F19104;
+}
+
+/* FOOTER 02 */
+
+
+
+
+
+
+
+
+
+
+/* .fnl img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 442px;
+    background: transparent;
+    bottom: 80px;
+} */
+
+/* FOOTER 03 */
+/* .fin {
+    background: #000;
+    color: #fff;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fin img {
+    width: 100px;
+} */
+
+
+/* RESPONSIVEEEEEEEEEE!!!! */
+
+/* Estilos generales */
+* {
+    font-weight: 400;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER CONSTRUTEK LOGO */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+
+.logo .logotipofijo {
+    width: 7%;
+    align-items: center;
+}
+
+/* INICIO */
+.inicio {
+    background-image: url(../img/fonfo1.jpg);
+    background-color: #000000;
+    min-height: 100vh;
+    width: auto;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.inicio .img {
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    bottom: 190px;
+}
+
+/* MENU DE NAVEGACIÓN */
+.navbar {
+    min-height: 5vh;
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f19104;
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 11px;
+    font-family: 'Yapari Triallight';
+    letter-spacing: 1px;
+    line-height: 5px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    transition: .5s all ease;
+}
+
+.navbar a:hover {
+    transform: translateX(-2px);
+    color: #f1d4a9;
+}
+
+.membt {
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+}
+
+.membt h1 {
+    color: #F19104;
+    font-family: 'Yapari Triallight';
+    font-kerning: normal;
+    font-size: 15px;
+}
+
+.membt .dot {
+    opacity: 0;
+}
+
+/* SECCION INTRODUCCION */
+.nosotros {
+    background: #000;
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.nosotros p {
+    font-family: 'centgot';
+    justify-content: center;
+    text-align: center;
+}
+
+/* VISION */
+.vision {
+    background: #000000;
+    color: #fff;
+    width: 100%;
+    min-height: 110vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.pest {
+    background: transparent;
+    width: 5%;
+}
+
+.empre1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 70vh;
+}
+
+.vision .pest img {
+    display: flex;
+    position: relative;
+    left: -70px;
+    width: 80px;
+    height: 50vh;
+}
+
+.vision .empre {
+    width: 400px;
+    height: 250px;
+    padding: 0 10px 100px 0px;
+    background: transparent;
+}
+
+.empre h1 {
+    font-size: 30px;
+    font-family: 'LOGOTYPE';
+    color: #F19104;
+}
+
+.empre p {
+    font-size: 12px;
+    font-family: 'centgot';
+    color: #ffffff;
+}
+
+.valor {
+    width: 500px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: baseline;
+    background: transparent;
+}
+
+.valor h1 {
+    font-size: 30px;
+    font-family: 'LOGOTYPE';
+    padding-bottom: 30px;
+    color: #F19104;
+    line-height : 30px;
+}
+
+.valor p {
+    font-size: 12px;
+    font-family: 'centgot';
+    color: #ffffff;
+    padding: 1px 0px 25px 0px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.valor img {
+    width: 40px;
+    height: 40px;
+    transition: .5s ease;
+}
+
+.valor img:hover {
+    transform: scale(1.2);
+}
+
+/* SERVICIOS */
+
+.logosclientes{
+    background-image:url(/img/fondo1.png);
+    background-color: #000;
+}
+.servicios {
+    color: #fff;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.servicios h1 {
+    font-size: 30px;
+    font-family: 'LOGOTYPE';
+    line-height: 15 px;
+    color: #F19104;
+    padding-bottom: 190px;
+    margin-right: 300px;
+}
+
+.servicios .cliente span {
+    width: 150px;
+    height: 150px;
+    background: #F19104;
+}
+.ser2{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.ser2 h2{
+    color: #F19104;
+    font-family: 'LOGOTYPE';
+    font-size: 15px;
+}
+/* PROYECTOS */
+.proyectos {
+    background: #F19104;
+    background-image: url(/img/fondo\ linea.svg);
+    color: #000000;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    min-height: 80vh;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.proyectos h1{
+    font-family: 'LOGOTYPE';
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 130px;
+}
+.bases1{
+    display: flex;
+    align-items: end;
+}
+.bases1 img{
+   display: flex;
+   justify-content:end;
+}
+
+/* TRABAJO DE CAMPO */
+.proyec2 {
+    background: #ffffff;
+    color: #fff;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.proyec2 h1 {
+    padding: 5px;
+    font-size: 15px;
+    color: #F19104;;
+    font-family: 'LOGOTYPE';
+    font-size:25px ;
+}
+
+/* FOOTER 01 */
+.portal {
+    background: #ffffff;
+    color: #000;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.portal h1 {
+    font-size: 40px;
+    color: #F19104;
+    font-family: 'LOGOTYPE';
+}
+
+.portal h2 {
+    font-size: 23,9px;
+    font-family: 'LOGOTYPE';
+}
+
+.portal h3 {
+    padding: 10px 0%  120px 0px;
+    font-size: 15px;
+    font-family: 'Yapari Triallight';
+    color: #F19104;
+}
+
+.portal a {
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #000000;
+    border:#000000 2px solid;
+}
+.portal a:hover{
+    background-color: #F19104;
+}
+
+/* FOOTER 02 */
+
+/* FOOTER 03 */
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Ajustes para pantallas de hasta 768px de ancho */
+    .inicio .img {
+        width: 70%; /* Reducir el tamaño de la imagen en dispositivos más pequeños */
+    }
+    .servicios h1 {
+        margin-right: 0; /* Eliminar el margen derecho en pantallas más pequeñas */
+    }
+    .proyectos h1 {
+        padding-left: 10px; /* Ajustar el relleno izquierdo en proyectos en dispositivos más pequeños */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para pantallas de hasta 480px de ancho */
+    .inicio .img {
+        width: 90%; /* Reducir aún más el tamaño de la imagen en dispositivos muy pequeños */
+    }
+}

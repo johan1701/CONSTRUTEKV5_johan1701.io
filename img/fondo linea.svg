@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="FONDO" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1910.9 575.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f19104;
+      }
+
+      .cls-2 {
+        opacity: .15;
+      }
+
+      .cls-3 {
+        fill: #fcfcf8;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-7.1" width="1918" height="580"/>
+  <g class="cls-2">
+    <polygon class="cls-3" points="552.15 0 0 452.69 0 0 552.15 0"/>
+    <polygon class="cls-3" points="1910.9 0 1910.9 186.26 1434.36 575.56 116.4 575.56 819.7 0 1910.9 0"/>
+  </g>
+</svg>

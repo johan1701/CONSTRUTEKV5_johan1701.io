@@ -1,0 +1,61 @@
+.slider-container {
+    position: relative;
+    width: 80vw; /* Reducir el ancho del contenedor del slider */
+    margin: 0 auto; /* Centrar horizontalmente el slider */
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    transition: transform 0.5s ease; /* Transición para el desplazamiento del slider */
+}
+
+.slide-track {
+    display: flex;
+    width: calc(200px * 6); /* Ajustar el ancho para mostrar seis imágenes a la vez */
+    transition: transform 0.5s ease; /* Transición para el desplazamiento de las imágenes */
+}
+
+.slider .slide {
+    width: 150px; /* Reducir el ancho de cada imagen */
+}
+
+.slider .slide img {
+    width:60%;
+}
+
+.prev-slide,
+.next-slide {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #F19104;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el cambio de color de fondo */
+}
+
+.prev-slide {
+    left: 0;
+
+
+}
+
+.next-slide {
+    right: 0;
+}
+
+.prev-slide span,
+.next-slide span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+.prev-slide:hover,
+.next-slide:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Cambia el color de fondo al pasar el mouse */
+}
